@@ -1,0 +1,21 @@
+baseURL: https://example.org/
+locale: en-us
+title: SSSJUING's Hugo Website
+
+module:
+  imports:
+    - path: github.com/imfing/hextra
+
+menu:
+  main:
+    - name: Articles
+      pageRef: /articles
+      weight: 2
+    - name: Documents
+      pageRef: /docs
+      weight: 3
+      # params:
+      #   icon: github
+    - name: Search
+      params:
+        type: search
